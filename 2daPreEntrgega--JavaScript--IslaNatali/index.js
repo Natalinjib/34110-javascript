@@ -1,16 +1,9 @@
-'use strict';
 
-let services = [];
 
-console.log(services);
+// Push de Servicios
 
-let end;
+const MARCA = "Chazki - Logística de Punta a Punta"
+const BIENVENIDA = ("¡Bienvenido a la " + MARCA + "!");
 
-while (!end) {
-  let service = prompt('Que servicio necesitas?');
-  services.push(service);
-  end = confirm('Eso es todo?');
-  console.log(services);
-}
-
-console.log('TODOS', services);
+console.log(MARCA);
+alert(MARCA);
